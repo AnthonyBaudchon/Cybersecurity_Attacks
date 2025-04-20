@@ -6,7 +6,7 @@ The goal is to returns the prediction for the type of cyber-attack.
 You can find the main project in the folder "MLmodel".      
 You can find the app files in the folder "WebApp".    
     
-\n    
+\n     
 Here is the Web Application: https://cybersecurity-attack-type-prediction.streamlit.app/  
 
 ## How to use the app:
@@ -32,23 +32,18 @@ Here is the Web Application: https://cybersecurity-attack-type-prediction.stream
 - a GitHub page (where you are right now!)
 - a Web Application to show result of the model prediction
 - a video to show a short presentation of the application
-
-
+     
+     
+## Check the demo of the app below:
+https://github.com/user-attachments/assets/2410bf6d-5f39-4169-97b0-79347db3aaa5
+    
+    
 ## Here is the team who worked on it:
 - 2 Data Scientists: Yasmine El khdar, Gaia Bianciotto
 - 1 Data Engineer: Marie-Caroline Bertheau
 - 3 Data Analysts: Giti Shekari, Aubain Kokou Viglo, Anthony Baudchon
-
-
-## To go further on this project:
-- we can try to optimize the web application by adding the xgboost trained model as a pickle file    
-- we can add the last model which correspond to HDBSCAN with XGBoost and with the hyperparameters found thanks to Optuna    
-- we can also add a menu with 2 options: the first page would be the one with all the model prediction and precision (already done)      
-- on the other page of the menu, we can make the user select input as "device", "location"...etc (from the top features) and get an output for the predicted type of attack (DDoS, Intrusion or Malware)      
-- we can eventually add an input in the second page for choosing a model (or adding only the best model for this page)
-- about the encoded dataset to drop in the drop box, we can implement the EDA, FE and Encoding parts in the app.py to be able to drop a raw dataset instead       
-    
-
+      
+      
 ## To reproduce the project:    
 1. clone the repository (or download it as ZIP)    
 ```bash
@@ -66,6 +61,11 @@ python3 -m venv venv && source venv/bin/activate
 pip install -r WebApp/requirements.txt
 ```
 
-## If you just want to watch the demo of the app, it's below:
-https://github.com/user-attachments/assets/2410bf6d-5f39-4169-97b0-79347db3aaa5
-
+## To go further on this project:
+- we can try to optimize the web application by adding the xgboost trained model as a pickle file    
+- we can add the last model which correspond to HDBSCAN with XGBoost and with the hyperparameters found thanks to Optuna    
+- we can also add a menu with 2 options: the first page would be the one with all the model prediction and precision (already done)      
+- on the other page of the menu, we can make the user select input as "device", "location"...etc (from the top features) and get an output for the predicted type of attack (DDoS, Intrusion or Malware)      
+- we can eventually add an input in the second page for choosing a model (or adding only the best model for this page)
+- about the encoded dataset to drop in the drop box, we can implement the EDA, FE and Encoding parts in the app.py to be able to drop a raw dataset instead     
+     
