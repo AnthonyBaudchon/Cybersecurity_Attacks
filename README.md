@@ -61,11 +61,13 @@ python3 -m venv venv && source venv/bin/activate
 pip install -r WebApp/requirements.txt
 ```
 
-## To go further on this project:
-- we can try to optimize the web application by adding the xgboost trained model as a pickle file    
-- we can add the last model which correspond to HDBSCAN with XGBoost and with the hyperparameters found thanks to Optuna    
-- we can also add a menu with 2 options: the first page would be the one with all the model prediction and precision (already done)      
-- on the other page of the menu, we can make the user select input as "device", "location"...etc (from the top features) and get an output for the predicted type of attack (DDoS, Intrusion or Malware)      
-- we can eventually add an input in the second page for choosing a model (or adding only the best model for this page)
-- about the encoded dataset to drop in the drop box, we can implement the EDA, FE and Encoding parts in the app.py to be able to drop a raw dataset instead     
-     
+## To go further on this project: 
+- we can try to optimize the web application by adding the xgboost trained model as a pickle file     
+- we can add the last model which correspond to HDBSCAN with XGBoost and with the hyperparameters found thanks to Optuna     
+- we can also add a menu with 2 options: the first page would be the one with all the model prediction and precision (what we started doing)       
+- on the other page of the menu, we can make the user select input as "device", "location"...etc (from the top features) and get an output for the predicted type of attack (DDoS, Intrusion or Malware)    
+- we can maybe add a select box in the second page for choosing a model (or adding only the best model for this page)     
+- about the encoded dataset to drop in the drop box, we can implement the EDA, FE and Encoding parts in the app.py to be able to drop a raw dataset instead    
+- it could be interesting to add pros and cons for each model     
+- we can make the app choose the best model for the dataset in the drop box and compare it with the others     
+       
