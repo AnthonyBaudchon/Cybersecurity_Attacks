@@ -51,20 +51,20 @@ Here is the Web Application: https://cybersecurity-attack-type-prediction.stream
 
 ## To reproduce the project:    
 1. clone the repository (or download it as ZIP)    
-```bash    
+```bash
 git clone https://github.com/AnthonyBaudchon/Cybersecurity_Attacks.git     
 # or     
 git clone git@github.com:AnthonyBaudchon/Cybersecurity_Attacks.git     
-```    
+```
 2. create a virtual environnement and activate it    
-```bash    
+```bash
 python3 -m venv venv && source venv/bin/activate
 # On Windows use venv\Scripts\activate    
-```    
+```
 3. install the packages from the requirements.txt file (located in the folder "WebApp")
-```bash    
+```bash
 pip install -r WebApp/requirements.txt
-```    
+```
 
 ## If you just want to watch the demo of the app, it's below:
 https://github.com/user-attachments/assets/2410bf6d-5f39-4169-97b0-79347db3aaa5
