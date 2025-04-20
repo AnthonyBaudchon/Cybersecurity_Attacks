@@ -50,3 +50,7 @@ Here is the Web Application: https://cybersecurity-attack-type-prediction.stream
     
     
 To reproduce the project, you can use the requirements.txt file (located in the folder "WebApp") to install the necessary packages.    
+
+
+https://github.com/user-attachments/assets/2410bf6d-5f39-4169-97b0-79347db3aaa5
+
